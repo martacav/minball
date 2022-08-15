@@ -3,6 +3,7 @@ A faster dual algorithm for the Euclidean minimum covering ball problem
 
 ## Introduction
 Dearing and Zeck (Oper Res Lett 37(3):171–175, 2009) presented a dual algorithm for the problem of the minimum covering ball in R^n. Each iteration of their algorithm has a computational complexity of at least 𝒪(𝑛^3). We propose a modification to their algorithm that, together with an implementation that uses updates to the QR factorization of a suitable matrix, achieves a 𝒪(𝑛^2) iteration.
+
 For further information on the algorithm, please consult the respective paper (see Reference / Citation).
 
 ## Running the code
